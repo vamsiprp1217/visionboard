@@ -1,0 +1,12 @@
+{
+	"name": "DS_LOCALSQL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_LOCALSQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
