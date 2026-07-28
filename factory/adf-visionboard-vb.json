@@ -1,0 +1,15 @@
+{
+	"name": "adf-visionboard-vb",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a8c8183a-3498-4976-af50-3d79d8f8a66b",
+		"tenantId": "1b3c9d54-698b-4cf6-8485-6a12fe342667"
+	}
+}
