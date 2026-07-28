@@ -1,0 +1,25 @@
+{
+	"name": "DS_ADLS_MIGRATION",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLS_MIGRATION",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Table_Name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "visionboard",
+				"fileSystem": "sql-migration"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
