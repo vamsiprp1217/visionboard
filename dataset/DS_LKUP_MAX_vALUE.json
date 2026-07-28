@@ -1,0 +1,42 @@
+{
+	"name": "DS_LKUP_MAX_vALUE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_LOCALSQL",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"SchemaName": {
+				"type": "string"
+			},
+			"TableName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "TableSchema",
+				"type": "varchar"
+			},
+			{
+				"name": "TableName",
+				"type": "varchar"
+			},
+			{
+				"name": "WatermarkColumn",
+				"type": "varchar"
+			},
+			{
+				"name": "LastLoadValue",
+				"type": "bigint",
+				"precision": 19
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ADF_Watermark_Table"
+		}
+	}
+}
