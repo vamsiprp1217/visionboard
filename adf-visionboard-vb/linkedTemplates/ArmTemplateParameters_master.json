@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-visionboard-vb"
+		},
+		"LS_ADLS_MIGRATION_accountKey": {
+			"value": ""
+		},
+		"LS_LOCALSQL_password": {
+			"value": ""
+		},
+		"LS_ADLS_MIGRATION_properties_typeProperties_url": {
+			"value": "https://adlsmigrationvisionboard.dfs.core.windows.net/"
+		},
+		"LS_LOCALSQL_properties_typeProperties_server": {
+			"value": "BOOK-QUHN666QL5"
+		},
+		"LS_LOCALSQL_properties_typeProperties_database": {
+			"value": "visionboard"
+		},
+		"LS_LOCALSQL_properties_typeProperties_userName": {
+			"value": "vamsiprp"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
