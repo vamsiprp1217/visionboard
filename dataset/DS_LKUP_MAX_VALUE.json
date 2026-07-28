@@ -1,5 +1,5 @@
 {
-	"name": "DS_LKUP_MAX_vALUE",
+	"name": "DS_LKUP_MAX_VALUE",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_LOCALSQL",
