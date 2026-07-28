@@ -62,6 +62,8 @@
 						{
 							"name": "Copy data1",
 							"type": "Copy",
+							"state": "Inactive",
+							"onInactiveMarkAs": "Succeeded",
 							"dependsOn": [],
 							"policy": {
 								"timeout": "0.12:00:00",
@@ -170,18 +172,6 @@
 											"value": "@pipeline().parameters.WatermarkColumn",
 											"type": "Expression"
 										},
-										"type": "String"
-									},
-									"TableName": {
-										"value": "FactDiscounts",
-										"type": "String"
-									},
-									"TableSchema": {
-										"value": "dbo",
-										"type": "String"
-									},
-									"WatermarkColumn": {
-										"value": "DiscountKey",
 										"type": "String"
 									}
 								}
